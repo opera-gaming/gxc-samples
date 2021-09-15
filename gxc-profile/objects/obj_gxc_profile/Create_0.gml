@@ -10,7 +10,6 @@ load = function () {
   var url = "https://api.gmx.dev/gg/profile";
   var map = ds_map_create();
   ds_map_add(map, "Content-Type", "application/json");
-  ds_map_add(map, "Access-Control-Allow-Origin", "*");
   ds_map_add(map, "Access-Control-Allow-Credentials", "true");
   profileRequest = http_request(url, "GET", map, "");
 };

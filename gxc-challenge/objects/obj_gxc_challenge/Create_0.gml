@@ -5,4 +5,4 @@ endTime = current_time + 10000;
 steps = 0;
 gameOver = false;
 scoreSubmitted = false;
-minotaur = "5064ffd9-7301-4ec5-8972-08fa69ec782b";
+minotaur = "f8d0e644-94fb-4f37-af9b-65e5e4686f52";

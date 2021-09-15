@@ -5,8 +5,6 @@ if (requestId == profileRequest && http_status == 200) {
   var result = json_parse(ds_map_find_value(async_load, "result"));
   avatarUrl = result.data.avatarUrl;
   userId = result.data.userId;
-  email = result.data.email;
-  createdDate = result.data.createdDate;
   name = result.data.name;
   if (avatarUrl == pointer_null) {
     avatarUrl = "";

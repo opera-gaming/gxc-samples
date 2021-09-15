@@ -2,17 +2,15 @@ profileImage = -1;
 profileSurface = -1;
 avatarUrl = "";
 userId = "";
-email = "";
-createdDate = "";
 name = "";
 
-load = function () {
-  var url = "https://api.gmx.dev/gg/profile";
-  var map = ds_map_create();
-  ds_map_add(map, "Content-Type", "application/json");
-  ds_map_add(map, "Access-Control-Allow-Credentials", "true");
-  profileRequest = http_request(url, "GET", map, "");
-};
+
+var url = "https://api.gmx.dev/gg/profile";
+var map = ds_map_create();
+ds_map_add(map, "Content-Type", "application/json");
+ds_map_add(map, "Access-Control-Allow-Credentials", "true");
+profileRequest = http_request(url, "GET", map, "");
+
 
 drawCircular = function (px, py, radius) {
   if (profileImage != -1) {
@@ -33,4 +31,3 @@ drawCircular = function (px, py, radius) {
   }
 };
 
-load();

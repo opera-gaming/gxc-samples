@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"scr_query_params","path":"scripts/scr_query_params/scr_query_params.yy",},"order":0,},
     {"id":{"name":"obj_gxc_challenge","path":"objects/obj_gxc_challenge/obj_gxc_challenge.yy",},"order":0,},
+    {"id":{"name":"scr_submit_score","path":"scripts/scr_submit_score/scr_submit_score.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -51,7 +52,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "9.2.1.2651",
+    "IDEVersion": "9.2.1.2656",
   },
   "resourceVersion": "1.4",
   "name": "gxc-challenge",

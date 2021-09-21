@@ -1,4 +1,6 @@
 function submit_challenge_score(score) {
+  // Make sure to only send integer scores.
+  score = round(score);
   var challenge = get_query_param("challenge");
   var track = get_query_param("track");
   var game = get_query_param("game");
